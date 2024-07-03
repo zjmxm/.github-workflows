@@ -23,8 +23,8 @@ jobs:
             
     - name: Commit and push changes
       run: |
-        git config --global user.name 'author name' # Replace with your name
-        git config --global user.email 'author email' # Replace with your email
+        git config --global user.name 'Brian' # Replace with your name
+        git config --global user.email '2383374449@qq.com' # Replace with your email
         git status
         git add .
         git commit -m "chore(action) 🦈: today's daily leetcode question added"
